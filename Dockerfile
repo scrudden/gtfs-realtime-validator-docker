@@ -1,5 +1,5 @@
-FROM java:8
-
+FROM maven:3.3-jdk-8
+MAINTAINER Sean Óg Crudden <og.crudden@gmail.com>
 RUN apt-get update
 
 # Install vi
@@ -17,4 +17,3 @@ RUN mvn package
 CMD java -jar target/gtfs-rt-validator-1.0-SNAPSHOT.jar
 
 EXPOSE 8080
-
