@@ -16,7 +16,7 @@ WORKDIR /root/gtfs-realtime-validator/
 RUN mvn package
 
 # Run
-CMD java -jar target/gtfs-rt-validator-1.0.0-SNAPSHOT.jar
+CMD java -jar target/gtfs-realtime-validator-1.0.0-SNAPSHOT.jar
 
 #Expose port
 EXPOSE 8080
