@@ -1,8 +1,6 @@
 FROM maven:3.3-jdk-8
 MAINTAINER Sean Óg Crudden <og.crudden@gmail.com>
 
-RUN apt-get update
-
 # Install git 
 RUN apt-get install -y git
 
