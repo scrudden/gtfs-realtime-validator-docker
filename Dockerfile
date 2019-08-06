@@ -1,4 +1,4 @@
-FROM maven:3.3-jdk-8
+FROM maven:3.6.1-jdk-8-slim
 MAINTAINER Sean Óg Crudden <og.crudden@gmail.com>
 
 RUN apt-get update
